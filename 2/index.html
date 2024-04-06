@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>Задание 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <ul>
+         <li id="ank">Анкета</li>
+         <li>
+          <button id="theme">Сменить тему</button>
+         </li>
+        </ul>
+      </p>
+        
+        <form id="form">
+          <label for="fam">Фамилия</label><br>
+          <input type="text" id="fam" name="fam">
+          <br>
+
+          <label for="name">Имя</label><br>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="mail">Электронная почта</label><br>
+          <input type="text" id="mail" name="mail"><br>
+
+          <label for="phone">Телефон</label><br>
+          <input type="text" id="phone" name="phone"><br><br>
+
+          <button type="button" onclick="showData()">Отправить</button>
+        </form>
+
+      <div id="output"></div>
+      
+    </div>
+  </body>
+</html>
